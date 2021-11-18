@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App Localization</string>
+    <string name="heading">Registration Form</string>
+    <string name="subheading">Enter the details below</string>
+    <string name="name"> Name</string>
+    <string name="email">Email</string>
+    <string name="city">City</string>
+    <string name="register">Register</string>
+</resources>

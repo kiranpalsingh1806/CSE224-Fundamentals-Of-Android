@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">पंजीकरण प्रपत्र</string>
+    <string name="heading">पंजीकरण प्रपत्र</string>
+    <string name="subheading">नीचे विवरण दर्ज करें</string>
+    <string name="name">नाम</string>
+    <string name="email">ईमेल</string>
+    <string name="city">शहर</string>
+    <string name="register">रजिस्टर</string>
+</resources>
