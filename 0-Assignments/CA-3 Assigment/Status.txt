@@ -1,1 +1,21 @@
-Not alloted yet
+Syllabus:
+Make App with the following components:
+1. List View
+2. Check Box
+3. Radio Button
+4. Spinner
+5. Request App Permissions
+6. Alert Dialogue
+7. Custom Alert Dialog
+8. Option Menu
+9. Context Menu
+10. Popup Menu
+11. Constraint Layout
+12. Relative Layout
+13. Dynamic View
+14. ImageView
+15. Action Bar
+16. Snack Bar
+17. Implicit Intent
+18. Explicit Intent
+19. Permisstion Request Response
