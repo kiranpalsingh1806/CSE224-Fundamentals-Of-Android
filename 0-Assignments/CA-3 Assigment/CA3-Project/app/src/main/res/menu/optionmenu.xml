@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/Settings" android:title="Settings"/>
-    <item android:id="@+id/Play" android:title="Play"/>
-    <item android:id="@+id/Pause" android:title="Pause"/>
-    <item android:id="@+id/Exit" android:title="Exit"/>
+    <item android:id="@+id/Profile" android:title="Profile"/>
+    <item android:id="@+id/Message" android:title="Message"/>
+    <item android:id="@+id/Connect" android:title="Connect"/>
+    <item android:id="@+id/Email" android:title="Email"/>
 
 </menu>

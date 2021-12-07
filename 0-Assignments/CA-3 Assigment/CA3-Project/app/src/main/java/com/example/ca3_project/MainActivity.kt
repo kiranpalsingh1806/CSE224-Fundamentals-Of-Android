@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val lv = findViewById<ListView>(R.id.myListView)
 
-        var a = arrayOf("Profile", "Message")
+        var a = arrayOf("Open Profile", "Send Message")
         var ab = ArrayAdapter(this, android.R.layout.simple_list_item_1, a);
         lv.adapter = ab
 
@@ -44,9 +44,6 @@ class MainActivity : AppCompatActivity() {
             requestCamera.launch(android.Manifest.permission.CAMERA)
         }
 
-
-
-
         val btnPop = findViewById<Button>(R.id.btnPopup)
 
         btnPop.setOnClickListener{
@@ -55,8 +52,8 @@ class MainActivity : AppCompatActivity() {
 
             popup.setOnMenuItemClickListener {
                 Toast.makeText(applicationContext, "You clicked : " + it.title, Toast.LENGTH_LONG).show()
-                if (it.title.equals("Search")){
-                    val url = "http://www.google.com"
+                if (it.title.equals("LinkedIn")){
+                    val url = "https://www.linkedin.com/in/kiranpalsingh1806/"
                     val i = Intent(Intent.ACTION_VIEW)
                     i.data = Uri.parse(url)
                     startActivity(i)
@@ -116,20 +113,20 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         val id = item.itemId
         return when(id) {
-            R.id.Settings -> {
+            R.id.Profile -> {
                 Toast.makeText(applicationContext, "Settings Selected", Toast.LENGTH_LONG)
                     .show()
                 true
             }
-            R.id.Play -> {
+            R.id.Message -> {
                 Toast.makeText(applicationContext, "Play Selected", Toast.LENGTH_LONG).show()
                 true
             }
-            R.id.Pause -> {
+            R.id.Connect -> {
                 Toast.makeText(applicationContext, "Pause Selected", Toast.LENGTH_LONG).show()
                 true
             }
-            R.id.Exit -> {
+            R.id.Email -> {
                 finish()
                 true
             }
